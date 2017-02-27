@@ -11,28 +11,76 @@ h1 {
 }
 h2 {
   font-family: Satisfy;
-  font-size: 50px;
-
+  font-size: 55px;
 }
 .navbar-nav {
-  text-align: center;
+  position: absolute;
+    width: 100%;
+    max-width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
 }
 .nav>li {
-  float: none;
+  float:  none;
   display: inline-block;
+}
+.body {
+  margin: 0;
+}
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+h3 {
+  font-family: 'Catamaran', sans-serif;
+  color: #ffffff;
+  opacity: 3;
+  font-size: 35px
+}
+h4 {
+    font-family: 'Catamaran', sans-serif;
+    color: #ffffff;
+    opacity: 3;
+    font-size: 25px
+}
+.image h4 {
+  position: absolute;
+  top: 200px;
+  left: 25px;
+  width: 100%;
+  background-color: #4d4d33;
+  opacity: 0.5;
+   padding-left:0px;
+}
+
+.image h3 {
+   position: absolute;
+   top: 200px;
+   left: 25px;
+   width: 100%;
+   background-color: #4d4d33;
+   opacity: 0.5;
+    padding-left:0px;
 }
 .col-sm-3{
   background-size: cover;
-      height: 350px;
-      max-height: 352px;
+      height:350px;
+      max-height: 500px;
 }
-.col-sm-8{
+.col-sm-9{
   background-size: cover;
       height: 350px;
-      max-height: 400px;
-}
-.col-sm-4 {
-  background-size: cover;
-      height: 350px;
-      max-height: 400px;
-}
+      max-height: 500px;
+    }
+  .why {
+    margin-left: 20px;
+    font-family: Tahoma;
+  }
+
+  .page-footer{
+    text-align: center;
+    text-align: justify;
+    background-color: #C0C0C0;
+    height: 100px;
+  }
