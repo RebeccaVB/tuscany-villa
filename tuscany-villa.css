@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+.page-header {
+
+  text-align: center;
+    background-color: #C0C0C0;
+}
+h1 {
+  font-family: Chonburi;
+}
+h2 {
+  font-family: Satisfy;
+  font-size: 50px;
+
+}
+.navbar-nav {
+  text-align: center;
+}
+.nav>li {
+  float: none;
+  display: inline-block;
+}
+.col-sm-3{
+  background-size: cover;
+      height: 350px;
+      max-height: 352px;
+}
+.col-sm-8{
+  background-size: cover;
+      height: 350px;
+      max-height: 400px;
+}
+.col-sm-4 {
+  background-size: cover;
+      height: 350px;
+      max-height: 400px;
+}
